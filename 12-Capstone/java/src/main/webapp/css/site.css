@@ -1,0 +1,287 @@
+
+/*ERROR MESSAGES */
+.error {
+	color: red;
+}
+
+/* HEADER */
+#logo {
+	max-width: 50%;
+	height: auto;
+}
+
+.nav-link {
+	font-size: 23px;
+}
+
+/*HOME PAGE */
+.park-container {
+	display: inline-block;
+	vertical-align: top;
+	height: auto;
+	width: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#park-image {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#park-name {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#park-description {
+	font-size: 17px;
+	justify-content: right;
+}
+
+.temperature-selection {
+	display: block;
+	height: 80px;
+	width: auto;
+	text-align: center;
+}
+
+#temp-submit {
+	background-color: #32CD32;
+	color: white;
+	border-radius: 50%;
+	width: 10%;
+	height: 30px;
+	font-weight: bold;
+}
+
+#temp-label {
+	display: inline-block;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+/* SURVEY FORM */
+#survey-form-description {
+	display: block;
+	font-size: 20px;
+	text-align: left;
+}
+
+#survey-title {
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#favorite-park {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+#park-dropdown {
+	display: inline-block;
+}
+
+#email-label {
+	display: inline-block;
+	padding-right: 107px;
+}
+
+#email-input {
+	display: inline-block;
+}
+
+#state-label {
+	display: inline-block;
+	padding-right: 44px;
+}
+
+#state-dropdown {
+	display: inline-block;
+}
+
+#activity-label {
+	display: inline-block;
+	padding-right: 85px;
+}
+
+#activity-selection-1 {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#activity-selection-2 {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#activity-selection-3 {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#activity-selection-4 {
+	display: inline-block;
+}
+
+#survey-submit {
+	background-color: #32CD32;
+	color: white;
+	border-radius: 50%;
+	display: flex;
+	width: 12%;
+	justify-content: center;
+	align-items: center;
+	margin-left: 40%;
+	margin-right: 48%;
+	font-weight: bold;
+}
+
+/* SURVEY RESULTS */
+.survey-results-top {
+	padding-left: 40px;
+}
+
+#survey-results-title {
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#survey-results-description {
+	font-size: 20px;
+	text-align: left;
+}
+
+#survey-park-img {
+	height: 100px;
+	width: 120px;
+}
+
+th, td {
+	text-align: center;
+}
+
+td {
+	height: 130px;
+}
+
+#park-name-row {
+	width: 40%;
+	font-size: 15px;
+}
+
+#vote-number {
+	text-align: center;
+}
+
+/*PARK DETAIL */
+
+#detailPic {
+	display: block;
+	width: 90%;
+	height: auto;
+	max-height: 500px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+}
+
+.parkDetail {
+	display: block;
+	align: center;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#quote {
+	font-family: 'Sail', cursive;
+	font-size: 30px;
+}
+
+#park-details {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #32CD32;
+	margin-left: 52px;
+	margin-right: 52px;
+}
+
+#park-details-title {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+}
+
+p {
+	text-align: left;
+	width: 90%;
+	height: auto;
+	max-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	text-align: left;
+	width: 90%;
+	height: auto;
+	max-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+}
+
+#weather {
+	display: flex;
+	justify-content: center;
+}
+
+#weatherImg {
+	width: 25%;
+	height: auto;
+	max-height: 500px;
+}
+
+.today {
+	text-align: center;
+	width: 30%;
+	margin-bottom: 30px;
+	display:inline-block;
+	padding-right: 50px;
+}
+
+#today-header {
+	font-size: 30px;
+	margin-left: 11px;
+}
+
+.future {
+	display: inline-block;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 12%;
+	margin-bottom: 20px;
+	justify-content: center;
+	align-self: center;
+	
+}
+
+h2:first-child {
+	display: inline-block;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+	width: 400px;
+}
