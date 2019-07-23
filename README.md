@@ -1,0 +1,2 @@
+# tech-elevator-capstone-3
+National Park Geek web application developed using Java, HTML, CSS, SQL, Spring MVC, Apache Tomcat. Home page displays information about all parks in the database. Users can also select their temperature scale preference (F or C). Clicking an image will take users to a page detailing park information, including a 5-day weather forecast. Users can also take a survey to vote for their favorite park. Once they submit their response, they are directed to a page which ranks the parks by most to least votes all-time.
